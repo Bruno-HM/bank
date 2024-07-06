@@ -2,8 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const registrationForm = document.getElementById('registration-form');
     const users = JSON.parse(localStorage.getItem('users')) || [];
 
-    
-  
     function saveUsers() {
         localStorage.setItem('users', JSON.stringify(users));
     }
@@ -46,7 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         alert('Usuário cadastrado com sucesso!');
         registrationForm.reset(); // Limpa o formulário
-
     });
 });
 

@@ -1,7 +1,15 @@
 #Title {
 text-align: center;
+font-size: 50px;
 }
 
 #Links {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 22px;
+}
+
+#Links a {
+    text-decoration: none;
 }
